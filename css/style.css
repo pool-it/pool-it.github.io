@@ -831,13 +831,14 @@ h1, h2, h3, h4, h5,
   right: 20px; }
 
 .intro-engage > div {
-  padding: 50px;
+  padding: 60px;
   position: relative; }
   .intro-engage > div h2 {
     color: #fff;
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
-    letter-spacing: .1rem; }
+    letter-spacing: .1rem; 
+    font-size: 24px;}
   .intro-engage > div p {
     color: rgba(255, 255, 255, 0.5); }
   .intro-engage > div:before {
@@ -847,13 +848,20 @@ h1, h2, h3, h4, h5,
     bottom: 20px;
     left: 20px;
     right: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.5); }
+    border: 2px solid rgba(255, 255, 255, 0.5); 
+  }
   .intro-engage > div:nth-of-type(1) {
-    background-color: #4e4e4e; }
+    background-color: #515052; }
   .intro-engage > div:nth-of-type(2) {
-    background-color: #fd5f00; }
+    background-color: #FE5F00; }
   .intro-engage > div:nth-of-type(3) {
-    background-color: #a23131; }
+    background-color: #F3A712; }
+  .intro-engage > div:nth-of-type(4) {
+      background-color: #B39C4D; }
+  .intro-engage > div:nth-of-type(5) {
+        background-color: #DDE0BD; }
+  .intro-engage > div:nth-of-type(6) {
+          background-color: #a23131; }
   .intro-engage > div *:last-child {
     margin-bottom: 0; }
 
